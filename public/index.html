@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- HTML
+
+  HYPERTEXT 
+texto que contém links para outros documentos.
+
+
+MARKUP 
+texto conterá marcações
+<tags>
+
+
+    LANGUAGE
+    Para me comunicar de certa maneira. Sintaxe especifica
+    para escrita.
+-->
+<html>
+
+<head>
+  <!-- são configurações da minha página.-->
+  <title> Doe sangue </title>
+
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      color: black;
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Aqui vem todo o conteúdo visível para o usuário, dentro
+        de certa página-->
+  <header>
+    <img class="logo" src="LOGO.jpg" alt="Imagem de DOE">
+    <h1> DOE </h1>
+    <H2> A sua doação importa </H2>
+    <p> Até 3 vidas com 1 doação </p>
+    <p> mais de 38.000 doações são necessarias todos os dias </p>
+    <p> Apenas 1,9% da população Brasileira doa sangue </p>
+    <button>Quero ajudar</button>
+  </header>
+
+  <section class="form hide">
+    <h2> Entre na lista de doadores</h2>
+    <form action="/" method="POST">
+      <input type="text" name="name" placeholder="Nome completo">
+      <input type="text" name="email" placeholder="E-mail">
+      <input type="text" name="blood" placeholder="Tipo sanguíneo">
+      <button>Quero ajudar</button>
+    </form>
+  </section>
+
+  <main>
+    <h2> Últimos <span>doadores</span> </h2>
+
+    <section class="donors">
+
+
+      <div class="donor">
+        <div class="blood">{{donor.blood}}</div>
+        <p>{{donor.name}}</p>
+      </div>
+
+
+    </section>
+
+  </main>
+
+  <footer> Com ❤️ Brenno Carvalho </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
