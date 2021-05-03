@@ -1,4 +1,14 @@
-Um site aonde você coloca seu tipo sanguineo, seu Nome e seu E-mail,
-Com a intenção de ajudar ao proximo, para entrarmos em contato por via E-mail para fazer doanção de sangue.
+<h1>Donate blood, donate life!</h1>
 
-Ass: Brenno Carvalho.
+> A website where you put your blood type your name and your email,
+with the intention of helping others, to contact us by e-mail to donate blood.
+
+### The user places the information:
+
++ Name
++ E-mail
++ Blood type
+
+finally we will contact the informant. ✔️
+
+Ass: Brenno Carvalho. 😄
