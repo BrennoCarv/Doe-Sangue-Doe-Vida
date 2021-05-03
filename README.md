@@ -11,4 +11,10 @@ with the intention of helping others, to contact us by e-mail to donate blood.
 
 finally we will contact the informant. ✔️
 
+> Technology used:
++ HTML
++ CSS
++ JAVASCRIPT
++ MySql
+
 Ass: Brenno Carvalho. 😄
